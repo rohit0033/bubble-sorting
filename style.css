@@ -1,0 +1,74 @@
+#container{
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.bar{
+    width: 10px;
+    background-color:white;
+    margin: 1px;
+}
+
+body h1{
+    color: aliceblue;
+}
+
+.container button {
+    position: absolute;
+    top:50%;
+    background-color:#f7f7f7;
+    color: #fff;
+   
+  }
+.content{
+    display: flex;
+    align-items: center;
+    
+}
+
+.content{
+    display: flex;
+    text-align: center;
+    color: #fff;
+}
+
+.content p{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 25px;
+    
+}
+.content h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.work-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+.work-heading p{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 25px;
+
+}
+.work-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.attribution{
+    color: #fff;
+}
